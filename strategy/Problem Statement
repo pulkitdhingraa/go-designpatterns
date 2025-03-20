@@ -1,0 +1,3 @@
+Implement a PaymentProcessor that uses the Strategy Pattern to dynamically select and execute the payment strategy at runtime, based on the user's choice of payment method.
+
+Participants: Context, Strategy Interface, Concrete Strategies, Client
