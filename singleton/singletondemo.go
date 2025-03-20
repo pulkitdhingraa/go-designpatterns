@@ -11,6 +11,7 @@ func Run() {
 	for i:=0;i<5;i++ {
 		wg.Add(1)
 		go getLoggerInstance(&wg)
+		// go getLoggerInstanceOnce(&wg)
 	}
 
 	wg.Wait()
