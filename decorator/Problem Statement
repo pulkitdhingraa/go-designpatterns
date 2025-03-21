@@ -1,0 +1,4 @@
+Wrap the base client and add these features on top, dynamically.
+Base HTTP client  
+   └─ Logging Decorator  
+       └─ Metrics Decorator  
