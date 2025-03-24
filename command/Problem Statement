@@ -1,0 +1,3 @@
+Design and implement a text editor undo/redo system with insert, delete and replace operations.
+
+Participants: Client, Receiver (Defines all actions to be perfomed), Command, Invoker (execution delegation and undo/redo operation)
