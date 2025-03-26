@@ -6,6 +6,7 @@ import (
 	"go-designpatterns/decorator"
 	"go-designpatterns/observer"
 	"go-designpatterns/command"
+	"go-designpatterns/adapter"
 )
 
 func main() {
@@ -14,4 +15,5 @@ func main() {
 	decorator.Run()
 	observer.Run()
 	command.Run()
+	adapter.Run()
 }
