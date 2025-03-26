@@ -1,0 +1,8 @@
+Order placement System
+
+1. Inventory System (checks and reserves stock)
+2. Payment Gateway (processes payment)
+3. Shipping Service (schedules shipment)
+4. Notification Service (sends confirmation email/SMS)
+
+Implemented only 1 and 4.

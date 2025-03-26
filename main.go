@@ -7,6 +7,7 @@ import (
 	"go-designpatterns/observer"
 	"go-designpatterns/command"
 	"go-designpatterns/adapter"
+	"go-designpatterns/facade"
 )
 
 func main() {
@@ -16,4 +17,5 @@ func main() {
 	observer.Run()
 	command.Run()
 	adapter.Run()
+	facade.Run()
 }
