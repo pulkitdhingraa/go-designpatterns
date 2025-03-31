@@ -1,0 +1,2 @@
+Notification system that supports multiple notification channels (Email, SMS, Push Notification)
+Each channel has common steps like authentication, message formatting, and sending, but the exact implementation varies per channel.

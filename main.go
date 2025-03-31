@@ -8,6 +8,7 @@ import (
 	"go-designpatterns/command"
 	"go-designpatterns/adapter"
 	"go-designpatterns/facade"
+	"go-designpatterns/template"
 )
 
 func main() {
@@ -18,4 +19,5 @@ func main() {
 	command.Run()
 	adapter.Run()
 	facade.Run()
+	template.Run()
 }
