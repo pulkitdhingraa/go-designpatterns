@@ -1,0 +1,21 @@
+Design a Music Streaming App where users can create playlists and listen to songs.
+Implement Iterator Pattern to allow users to browse through the playlist one song at a time, without exposing the internal structure of the playlist.
+
+Requirements
+Implement a Playlist class that contains a list of Song objects.
+
+Create an Iterator that allows sequential traversal of songs.
+
+Provide a PlaylistIterator that supports:
+
+next(): Move to the next song.
+
+prev(): Move to the previous song.
+
+hasNext(): Check if more songs are available.
+
+hasPrev(): Check if previous songs exist.
+
+reset(): Restart from the first song.
+
+Ensure that the Playlist does not expose its internal structure to the client.

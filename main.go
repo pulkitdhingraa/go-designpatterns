@@ -9,6 +9,7 @@ import (
 	"go-designpatterns/adapter"
 	"go-designpatterns/facade"
 	"go-designpatterns/template"
+	"go-designpatterns/iterator"
 )
 
 func main() {
@@ -20,4 +21,5 @@ func main() {
 	adapter.Run()
 	facade.Run()
 	template.Run()
+	iterator.Run()
 }
